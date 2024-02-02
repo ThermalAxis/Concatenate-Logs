@@ -26,7 +26,6 @@ echo Concatenating logs, please wait...
 
 for %%i in (*.log) do (
     type "%%i" >> %outputFile%
-    echo. >> %outputFile%  :: Add a newline after each file
 )
 
 cls 
